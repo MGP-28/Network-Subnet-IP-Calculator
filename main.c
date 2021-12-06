@@ -7,6 +7,7 @@ void subnet_size_to_IP(int subnet_size){
       subnet_size=subnet_size-8;
       cont++;
     }
+    printf("Subnet mask IP: ");
     for(int i=0; i<cont; i++){
       printf("255.");
     }
@@ -25,7 +26,7 @@ void subnet_size_to_IP(int subnet_size){
 
 int main(void) {
   int loop=1;
-  printf("########## SUBNET IP CALCULATOR ##########\n");
+  printf("########## SUBNET IP CALCULATOR ##########");
   do{
 
 //read program choice
